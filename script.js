@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 let money = prompt("Ваш бюджет на месяц"),
     time = prompt("Введите дату в формате YYYY-MM-DD"),
     expenses = prompt("Введите обязательную статью расходов в этом месяце"),
@@ -18,3 +19,5 @@ appData.expenses.a3 = ammount;
 alert((money - ammount) / 30);
 
 console.log(appData.expenses);
+=======
+>>>>>>> master
