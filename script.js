@@ -1,9 +1,9 @@
-const money = prompt("Ваш бюджет на месяц");
-const time = prompt("Введите дату в формате YYYY-MM-DD");
-const expenses = prompt("Введите обязательную статью расходов в этом месяце");
-const ammount = prompt("Во сколько обойдется?")
+let money = prompt("Ваш бюджет на месяц"),
+    time = prompt("Введите дату в формате YYYY-MM-DD"),
+    expenses = prompt("Введите обязательную статью расходов в этом месяце"),
+    ammount = prompt("Во сколько обойдется?");
 
-var appData = {
+let appData = {
     budget : money,
     timeData : time,
     expenses : {},
@@ -12,7 +12,8 @@ var appData = {
     savings : false
 };
 
-appData.expenses = expenses;
+appData.expenses.a1 = expenses;
+appData.expenses.a3 = ammount;
 
 alert((money - ammount) / 30);
 
