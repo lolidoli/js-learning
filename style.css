@@ -1,0 +1,29 @@
+body {
+    background: #3ca9f4;
+}
+
+div {
+    height: 410px;
+    width: 410px;
+    border-radius: 46px;
+background: #3ca9f4;
+box-shadow:  5px 5px 10px #246592, 
+             -5px -5px 10px #54edff;
+
+}
+
+div:hover {
+    border-radius: 46px;
+background: #3ca9f4;
+box-shadow:  22px 22px 44px #246592, 
+             -22px -22px 44px #54edff;
+}
+
+div:active {
+    
+border-radius: 46px;
+background: #3ca9f4;
+box-shadow: inset 22px 22px 44px #246592, 
+            inset -22px -22px 44px #54edff;
+}
+
