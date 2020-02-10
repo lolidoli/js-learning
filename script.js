@@ -1,5 +1,10 @@
-let money = +prompt("Ваш бюджет на месяц?", ''),
+let money, time;
+
+function start() {
+    money = +prompt("Ваш бюджет на месяц?", '');
 	time = prompt('Введите дату в формате YYYY-MM-DD', '');
+}
+
 
 let appData = {
 	budget: money,
@@ -19,7 +24,7 @@ for (i = 0; i<2; i++) {
          console.log("done");
      appData.expenses[a] = b;	
     } else {
-        i = 0;
+        i = i - 1;
     }
 };
 
